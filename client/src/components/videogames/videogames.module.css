@@ -1,0 +1,32 @@
+.contentInput {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search,
+.alpha,
+.genres {
+  color: rgb(245, 183, 174);
+  background-color: rgba(0, 0, 0, 0.445);
+}
+.contentCards {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.textContent {
+  text-decoration: none;
+}
+.paginate {
+  padding: 6px 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border: rgba(0, 0, 0, 0.945) solid;
+  background-color: rgba(243, 31, 31, 0.753);
+}
+.select {
+  padding: 6px 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border: rgba(160, 152, 152, 0.945) solid;
+  background-color: rgba(243, 31, 31, 0.753);
+}

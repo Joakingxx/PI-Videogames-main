@@ -1,0 +1,54 @@
+.navContent {
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(7, 0, 0, 0.678);
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.neon {
+  color: rgb(245, 169, 166);
+  text-shadow: 0 0 5px rgb(255, 0, 119), 0 0 10px rgb(93, 8, 8),
+    0 0 20px rgb(170, 12, 12), 0 0 40px rgb(219, 32, 7),
+    0 0 80px rgb(165, 37, 37), 0 0 90px rgb(167, 43, 43),
+    0 0 100px rgb(149, 39, 39), 0 0 140px rgb(160, 42, 42),
+    0 0 180px rgb(160, 38, 38);
+}
+
+.btnCreate {
+  position: absolute;
+  right: 11%;
+  top: 6%;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(245, 183, 174);
+  letter-spacing: 1px;
+  font-size: 29px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.btnCreate:hover {
+  background: #ff0022e7;
+  box-shadow: 0 0 10px #ff0022e7, 0 0 40px #ff0022e7, 0 0 80px #ff0022e7;
+  transition-delay: 0, 5s;
+}
+
+.icon {
+  color: rgb(245, 71, 71);
+  border: none;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 3%;
+  font-size: 60px;
+}
+.icon:hover {
+  color: rgb(245, 169, 166);
+}

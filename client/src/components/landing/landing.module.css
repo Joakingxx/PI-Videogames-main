@@ -1,0 +1,27 @@
+body {
+  background: url(.../../../../images/fondo.jpg);
+  background-size: 100%;
+}
+
+.btnneon {
+  margin: 0;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(245, 183, 174);
+  letter-spacing: 4px;
+  font-size: 36px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  backdrop-filter: blur(1px);
+}
+.btnneon:hover {
+  background: #ff0022e7;
+  box-shadow: 0 0 10px #ff0022e7, 0 0 40px #ff0022e7, 0 0 80px #ff0022e7;
+  transition-delay: 0, 5s;
+}

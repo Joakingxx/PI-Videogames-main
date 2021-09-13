@@ -1,0 +1,55 @@
+.name,
+.rating,
+.description,
+.released,
+.img,
+.plataforms,
+.genres {
+  border: rgba(0, 0, 0, 0.404) solid 0.5px;
+}
+
+.img {
+  left: 50%;
+  bottom: 31%;
+  width: 800px;
+  height: 500px;
+  position: fixed;
+}
+.name,
+.rating,
+.description,
+.released,
+.plataforms,
+.genres {
+  backdrop-filter: blur(15px);
+  text-align: center;
+  width: 500px;
+  color: white;
+}
+.description {
+  width: 500px;
+  position: relative;
+  left: 10%;
+  font-size: 18px;
+}
+.name {
+  position: relative;
+  left: 10%;
+  font-size: 25px;
+}
+.rating {
+  position: fixed;
+  top: 72%;
+  left: 65%;
+  font-size: 40px;
+  color: rgba(238, 8, 8, 0.541);
+  width: 15%;
+  -webkit-text-stroke: 1.5px rgb(24, 11, 11);
+}
+.released,
+.plataforms,
+.genres {
+  font-size: 18px;
+  position: relative;
+  left: 10%;
+}

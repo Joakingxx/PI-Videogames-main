@@ -5,13 +5,6 @@ class Modelo {
     this.model = model;
   }
 
-  getAll = (req, res, next) => {
-    this.model
-      .findAll()
-      .then((videogames) => res.send(videogames))
-      .catch((error) => next(error));
-  };
-
   getByID = (req, res, next) => {
     const { id } = req.params;
     this.model
